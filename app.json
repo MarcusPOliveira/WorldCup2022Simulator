@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "WorldCup2022Simulator",
+    "slug": "WorldCup2022Simulator",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
