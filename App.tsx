@@ -1,21 +1,53 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { StatusBar, View } from 'react-native';
+import * as SplashScreen from 'expo-splash-screen';
+import { ThemeProvider } from 'styled-components/native';
+import { useFonts } from 'expo-font';
+import {
+  DMSans_400Regular,
+  DMSans_500Medium,
+  DMSans_700Bold,
+} from '@expo-google-fonts/dm-sans';
+
+import theme from './src/theme';
+import { Routes } from './src/routes';
 
 export default function App() {
+  const [appIsReady, setAppIsReady] = useState(false);
+
+  const [fontsLoaded] = useFonts({
+    DMSans_400Regular,
+    DMSans_500Medium,
+    DMSans_700Bold,
+  });
+
+  useEffect(() => {
+    //previse que a SplashScreen saia de tela
+    const showSplashScreen = async () => {
+      await SplashScreen.preventAutoHideAsync();
+    }
+    showSplashScreen();
+  }, []);
+
+  useEffect(() => {
+    //quando as fontes carregarem, desmonta a splash
+    const hideSplashScreen = async () => {
+      await SplashScreen.hideAsync();
+    }
+    if (fontsLoaded) {
+      setAppIsReady(true);
+      hideSplashScreen();
+    }
+  }, [fontsLoaded]);
+
+  //caso o app não tenha carregado
+  if (!appIsReady) {
+    return null;
+  }
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <ThemeProvider theme={theme}>
+      <StatusBar barStyle='light-content' backgroundColor='transparent' translucent />
+      <Routes />
+    </ThemeProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
