@@ -11,11 +11,26 @@ export const Container = styled.View`
   background-color: ${({ theme }) => theme.colors.secondary};
 `;
 
-export const TeamWrapper = styled.TouchableOpacity<SelectColor>`
+export const Team1Wrapper = styled.TouchableOpacity<SelectColor>`
   flex: 0.5;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  ${({ isSelected, theme }) => css`
+    background-color: ${isSelected ? theme.colors.success : theme.colors.secondary};
+    opacity: ${isSelected ? 0.4 : 1};
+  `};
+`;
+
+export const Team2Wrapper = styled.TouchableOpacity<SelectColor>`
+  flex: 0.5;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   ${({ isSelected, theme }) => css`
     background-color: ${isSelected ? theme.colors.success : theme.colors.secondary};
     opacity: ${isSelected ? 0.4 : 1};

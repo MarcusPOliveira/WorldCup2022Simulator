@@ -1,0 +1,212 @@
+{
+  "groups": [
+    {
+      "group_id": 1,
+      "group": "A",
+      "teams": [
+        {
+          "id": 1,
+          "name": "Qatar",
+          "flag": "https://img.icons8.com/color/344/qatar-circular.png"
+        },
+        {
+          "id": 2,
+          "name": "Ecuador",
+          "flag": "https://img.icons8.com/color/344/ecuador-circular.png"
+        },
+        {
+          "id": 3,
+          "name": "Senegal",
+          "flag": "https://img.icons8.com/color/344/senegal-circular.png"
+        },
+        {
+          "id": 4,
+          "name": "Holanda",
+          "flag": "https://img.icons8.com/color/344/netherlands-circular.png"
+        }
+      ]
+    },
+    {
+      "group_id": 2,
+      "group": "B",
+      "teams": [
+        {
+          "id": 5,
+          "name": "Inglaterra",
+          "flag": "https://img.icons8.com/color/344/england.png"
+        },
+        {
+          "id": 6,
+          "name": "Irã",
+          "flag": "https://img.icons8.com/color/344/iran-circular.png"
+        },
+        {
+          "id": 7,
+          "name": "Estados Unidos",
+          "flag": "https://img.icons8.com/color/344/usa-circular.png"
+        },
+        {
+          "id": 8,
+          "name": "País de Gales",
+          "flag": "https://img.icons8.com/color/344/wales.png"
+        }
+      ]
+    },
+    {
+      "group_id": 3,
+      "group": "C",
+      "teams": [
+        {
+          "id": 9,
+          "name": "Argentina",
+          "flag": "https://img.icons8.com/color/344/argentina-circular.png"
+        },
+        {
+          "id": 10,
+          "name": "Arábia Saudita",
+          "flag": "https://img.icons8.com/color/344/saudi-arabia-circular.png"
+        },
+        {
+          "id": 11,
+          "name": "México",
+          "flag": "https://img.icons8.com/color/344/mexico-circular.png"
+        },
+        {
+          "id": 12,
+          "name": "Polônia",
+          "flag": "https://img.icons8.com/color/344/poland-circular.png"
+        }
+      ]
+    },
+    {
+      "group_id": 4,
+      "group": "D",
+      "teams": [
+        {
+          "id": 13,
+          "name": "França",
+          "flag": "https://img.icons8.com/color/344/france-circular.png"
+        },
+        {
+          "id": 14,
+          "name": "Dinamarca",
+          "flag": "https://img.icons8.com/color/344/denmark-circular.png"
+        },
+        {
+          "id": 15,
+          "name": "Tunísia",
+          "flag": "https://img.icons8.com/color/344/tunisia-circular.png"
+        },
+        {
+          "id": 16,
+          "name": "Austrália",
+          "flag": "https://img.icons8.com/color/344/australia-circular.png"
+        }
+      ]
+    },
+    {
+      "group_id": 5,
+      "group": "E",
+      "teams": [
+        {
+          "id": 17,
+          "name": "Espanha",
+          "flag": "https://img.icons8.com/color/344/spain2-circular.png"
+        },
+        {
+          "id": 18,
+          "name": "Alemanha",
+          "flag": "https://img.icons8.com/color/344/germany-circular.png"
+        },
+        {
+          "id": 19,
+          "name": "Japão",
+          "flag": "https://img.icons8.com/color/344/japan-circular.png"
+        },
+        {
+          "id": 20,
+          "name": "Costa Rica",
+          "flag": "https://img.icons8.com/color/344/casta-rica-circular.png"
+        }
+      ]
+    },
+    {
+      "group_id": 6,
+      "group": "F",
+      "teams": [
+        {
+          "id": 21,
+          "name": "Bélgica",
+          "flag": "https://img.icons8.com/color/344/belgium-circular.png"
+        },
+        {
+          "id": 22,
+          "name": "Canadá",
+          "flag": "https://img.icons8.com/color/344/canada-circular.png"
+        },
+        {
+          "id": 23,
+          "name": "Marrocos",
+          "flag": "https://img.icons8.com/color/344/morocco-circular.png"
+        },
+        {
+          "id": 24,
+          "name": "Croácia",
+          "flag": "https://img.icons8.com/color/344/croatia-circular.png"
+        }
+      ]
+    },
+    {
+      "group_id": 7,
+      "group": "G",
+      "teams": [
+        {
+          "id": 25,
+          "name": "Brasil",
+          "flag": "https://img.icons8.com/color/344/brazil-circular.png"
+        },
+        {
+          "id": 26,
+          "name": "Sérvia",
+          "flag": "https://img.icons8.com/color/344/sernia-circular.png"
+        },
+        {
+          "id": 27,
+          "name": "Suíça",
+          "flag": "https://img.icons8.com/color/344/switzerland-circular.png"
+        },
+        {
+          "id": 28,
+          "name": "Camarões",
+          "flag": "https://img.icons8.com/color/344/cameroon-circular.png"
+        }
+      ]
+    },
+    {
+      "group_id": 8,
+      "group": "H",
+      "teams": [
+        {
+          "id": 29,
+          "name": "Portugal",
+          "flag": "https://img.icons8.com/color/344/portugal-circular.png"
+        },
+        {
+          "id": 30,
+          "name": "Gana",
+          "flag": "https://img.icons8.com/color/344/ghana-circular.png"
+        },
+        {
+          "id": 31,
+          "name": "Uruguai",
+          "flag": "https://img.icons8.com/color/344/uruguay-circular.png"
+        },
+        {
+          "id": 32,
+          "name": "Coréia do Sul",
+          "flag": "https://img.icons8.com/color/344/south-korea-circular.png"
+        }
+      ]
+    }
+  ]
+}

@@ -3,7 +3,8 @@ import { TouchableOpacityProps } from 'react-native';
 
 import {
   Container,
-  TeamWrapper,
+  Team1Wrapper,
+  Team2Wrapper,
   GroupReference,
   Flag,
   Team,
@@ -20,17 +21,17 @@ type Props = TouchableOpacityProps & {
 export function ConfrontationCard({ groupReference, flag, team, isSelected = false, ...rest }: Props) {
   return (
     <Container>
-      <TeamWrapper isSelected>
+      <Team1Wrapper>
         <GroupReference>{groupReference}</GroupReference>
         <Flag source={flag} />
         <Team>{team}</Team>
-      </TeamWrapper>
+      </Team1Wrapper>
       <Separator />
-      <TeamWrapper>
+      <Team2Wrapper>
         <GroupReference>2B</GroupReference>
         <Flag />
         <Team>Estados Unidos</Team>
-      </TeamWrapper>
+      </Team2Wrapper>
     </Container>
   );
 }
